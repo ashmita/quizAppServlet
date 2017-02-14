@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="quiz:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/quiz_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="quiz" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="quiz/web/Web3" />
+      <element id="javaee-facet-resources" facet="quiz/web/Web4" />
+      <element id="javaee-facet-resources" facet="quiz/web/Web2" />
+      <element id="javaee-facet-resources" facet="quiz/web/Web" />
+      <element id="javaee-facet-resources" facet="quiz/web/Web5" />
+    </root>
+  </artifact>
+</component>
